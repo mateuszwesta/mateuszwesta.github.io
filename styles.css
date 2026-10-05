@@ -242,6 +242,10 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
 }
 
+/* older roles, kept brief so recent work carries the weight */
+.job-compact { padding-bottom: 1.4rem; }
+.job-compact .org { font-weight: 500; color: var(--text-muted); }
+
 /* ---------- cards ---------- */
 .cards {
   display: grid;
@@ -297,6 +301,18 @@ a:hover { text-decoration: underline; }
   gap: 1.4rem;
 }
 .pub-title { margin: 0; font-weight: 600; }
+
+.pub-note {
+  margin: 0.35rem 0 0;
+  font-size: 0.86rem;
+}
+
+/* location kept as a quiet footnote rather than a headline detail */
+.location {
+  margin: 1.6rem 0 0;
+  font-size: 0.87rem;
+  color: var(--text-muted);
+}
 
 /* ---------- footer ---------- */
 .site-footer {
