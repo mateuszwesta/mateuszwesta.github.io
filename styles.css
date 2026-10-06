@@ -307,12 +307,6 @@ a:hover { text-decoration: underline; }
   font-size: 0.86rem;
 }
 
-/* location kept as a quiet footnote rather than a headline detail */
-.location {
-  margin: 1.6rem 0 0;
-  font-size: 0.87rem;
-  color: var(--text-muted);
-}
 
 /* ---------- footer ---------- */
 .site-footer {
